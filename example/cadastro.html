@@ -1,0 +1,65 @@
+<?php require 'config.php' ?>
+<!doctype html>
+<html>
+    <head>
+        <title>Classificados</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
+        <link rel='stylesheet' href='assets/css/bootstrap.min.css' />
+        <link rel='stylesheet' href='assets/css/ps_style.css' />
+        <script src='assets/js/jquery-3.4.1.min.js'></script>
+        <script src='assets/js/bootstrap.bundle.min.js'></script>
+        <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Cadastro</h1>
+            <form method='POST'>
+                <div class='form-group'>
+                    <label for='nome'>Nome: </label>
+                    <input id='nome' type='text' name='nome' class='form-control'/>
+                </div>
+                <div class='form-group'>
+                    <label for='email'>Email: </label>
+                    <input id='email' type='text' name='email' class='form-control' />
+                </div>
+                <div class='form-group'>
+                    <label for='senha'>Senha: </label>
+                    <input  type='password' name='senha' class='form-control pass_input' />
+                    
+                    <!-- Plugin -->
+                    <div id='pass_strength_box' class='bg-dark text-light'>
+                        <h5 class='pass_strength_header'>Força da senha</h5>
+                        <div class='progress'>
+                            <div class='pass_strength_bar'></div>
+                        </div>
+                        <ul class='pass_strength'>
+                            <li id='pass_length' data-length='8'>
+                                Tamanho da senha (no mínimo 8 caracteres)
+                                <span class='pass_strength_icon'></span>
+                            </li>
+                            <li id='pass_numCaract'>
+                                Numeros e caracteres
+                                <span class='pass_strength_icon'></span>
+                            </li>
+                            <li id='pass_specCaract'>
+                                Caracteres especiais
+                                <span class='pass_strength_icon'></span>
+                            </li>
+                            <li id='pass_ulCaract'>
+                                Letras maiúsculas e minúsculas
+                                <span class='pass_strength_icon'></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Fim plugin -->
+                </div>
+                <div class='form-group'>
+                    <input type='submit' value='Cadastrar' class='btn btn-outline-primary submit' />
+                </div>
+
+            </form>
+        </div>
+
+        <script src='assets/js/ps_script.js'></script>
+    </body>
+</html>
