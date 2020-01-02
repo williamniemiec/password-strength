@@ -6,14 +6,14 @@ O projeto é um plugin para HTML que consiste em um mecanismo de detecção de f
 ## Images (Imagens)
 #### Password = ''
 ![Password = ''](https://github.com/williamniemiec/pass_strength/blob/master/images/noPass.png?raw=true)
-#### Password = 'teste1'
-![Password = 'teste1'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_teste1.png?raw=true)
-#### Password = 'teste123'
-![Password = 'teste123'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_teste123.png?raw=true)
-#### Password = 'teste123@'
-![Password = 'teste123@'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_teste123@.png?raw=true)
-#### Password = 'teste123@A'
-![Senha = 'teste123@A'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_teste123@A.png?raw=true)
+#### Password = 'test1'
+![Password = 'test1'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1.png?raw=true)
+#### Password = 'test1234'
+![Password = 'test1234'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1234.png?raw=true)
+#### Password = 'test1234@'
+![Password = 'test1234@'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1234@.png?raw=true)
+#### Password = 'test1234@A'
+![Senha = 'test1234@A'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1234@A.png?raw=true)
 
 ## Password standards (Padrões exigidos na senha)
 To a password to be accepted, it must meet the following standards:
@@ -44,7 +44,7 @@ Para uma senha ser aceita, ela deverá atender aos seguintes critérios:
 `<ul class='pass_strength'>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;`<li id='pass_length' data-length='MINIMUM_CARACTERS'>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Password length (minimum: MINIMUM_CARACTERS caracters)`<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<span class='pass_strength_icon'>&nbsp;&nbsp;&nbsp;&nbsp;</span>`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<span class='pass_strength_icon'></span>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;`</li>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;`<li id='pass_numCaract'>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Numbers and Caracters`<br />
@@ -77,7 +77,7 @@ Para uma senha ser aceita, ela deverá atender aos seguintes critérios:
 `<ul class='pass_strength'>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;`<li id='pass_length' data-length='NUM_MIN_CARACTERES'>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Tamanho da senha (no mínimo NUM_MIN_CARACTERES caracteres)`<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<span class='pass_strength_icon'>&nbsp;&nbsp;&nbsp;&nbsp;</span>`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<span class='pass_strength_icon'></span>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;`</li>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;`<li id='pass_numCaract'>`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Numeros e caracteres`<br />
