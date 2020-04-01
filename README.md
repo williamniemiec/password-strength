@@ -1,7 +1,7 @@
 # Pass Strength (HTML widget)
 ![](https://github.com/williamniemiec/pass_strength/blob/master/media/logo/logo.jpg?raw=true)
 
-The project is a HTML widget that detects the password strength, preventing to create a password outside the specified standards.
+This project is an HTML widget that detects the password strength, preventing to create a password outside the specified standards.
 
 <hr />
 
