@@ -1,17 +1,21 @@
 # Pass Strength (HTML widget)
+![](https://github.com/williamniemiec/pass_strength/blob/master/media/logo/logo.jpg?raw=true)
+
 The project is a HTML widget that detects the password strength, preventing to create a password outside the specified standards.
+
+<hr />
 
 ## Images
 #### Password = ''
-![Password = ''](https://github.com/williamniemiec/pass_strength/blob/master/images/noPass.png?raw=true)
+![Password = ''](https://github.com/williamniemiec/pass_strength/blob/master/media/plugin/noPass.png?raw=true)
 #### Password = 'test1'
-![Password = 'test1'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1.png?raw=true)
+![Password = 'test1'](https://github.com/williamniemiec/pass_strength/blob/master/media/plugin/pass_test1.png?raw=true)
 #### Password = 'test1234'
-![Password = 'test1234'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1234.png?raw=true)
+![Password = 'test1234'](https://github.com/williamniemiec/pass_strength/blob/master/media/plugin/pass_test1234.png?raw=true)
 #### Password = 'test1234@'
-![Password = 'test1234@'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1234@.png?raw=true)
+![Password = 'test1234@'](https://github.com/williamniemiec/pass_strength/blob/master/media/plugin/pass_test1234@.png?raw=true)
 #### Password = 'test1234@A'
-![Senha = 'test1234@A'](https://github.com/williamniemiec/pass_strength/blob/master/images/pass_test1234@A.png?raw=true)
+![Senha = 'test1234@A'](https://github.com/williamniemiec/pass_strength/blob/master/media/plugin/pass_test1234@A.png?raw=true)
 
 ## Password standards (Padrões exigidos na senha)
 To a password to be accepted, it must meet the following standards:
@@ -61,8 +65,8 @@ To a password to be accepted, it must meet the following standards:
 |File | Type | Description
 |------- | --- | ----
 |example | Directory | Contains a HTML example to test the plugin in action
-|images | Directory | Contains plugin images in action
-|requisites | Directory | Contains the requirement files for the plugin to work
+|media | Directory | Contains visual images of the project
+|requirements | Directory | Contains the requirement files for the plugin to work
 |src | Directory | Contains the plugin source files
 | src/ps_style.css | File | Contains the plugin stylesheet
 | src/ps_script.js | File | Contains the plugin source
