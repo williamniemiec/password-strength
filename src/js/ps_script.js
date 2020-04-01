@@ -92,12 +92,12 @@ $(function(){
     
     $('.pass_input').keyup(function(){
         // Inicialization
-        var senha = $(this).val();
+        var pass = $(this).val();
         var strength = 0;
         var minLen = $('#pass_length').data('length');
 
         // Pass length
-        if(senha.length >= minLen){
+        if(pass.length >= minLen){
             strength += 25;
             pass_strength_success('pass_length');
         } else {
@@ -106,29 +106,29 @@ $(function(){
 
         // Numbers and Caracters
         var reg = new RegExp(/(([A-Z]+.*[0-9]+)|([0-9]+.*[A-Z]+))+/i);
-        if(reg.test(senha)){
+        if(reg.test(pass)){
             strength += 25;
-            pass_strength_success('pass_numCaract');
+            pass_strength_success('pass_numCharact');
         } else {
-            pass_strength_fail('pass_numCaract');
+            pass_strength_fail('pass_numCharact');
         }
         
         // Special Caracters
         var reg = new RegExp(/[^A-Z0-9]+/i);
-        if(reg.test(senha)){
+        if(reg.test(pass)){
             strength += 25;
-            pass_strength_success('pass_specCaract');
+            pass_strength_success('pass_specCharact');
         } else {
-            pass_strength_fail('pass_specCaract');
+            pass_strength_fail('pass_specCharact');
         }
 
         // Uppercase and lowercase letters
         var reg = new RegExp(/([A-Z]+.*[a-z]+|[a-z]+.*[A-Z]+)+/g);
-        if (reg.test(senha)){
+        if (reg.test(pass)){
             strength += 25;
-            pass_strength_success('pass_ulCaract');
+            pass_strength_success('pass_ulCharact');
         } else {
-            pass_strength_fail('pass_ulCaract');
+            pass_strength_fail('pass_ulCharact');
         }
 
         // Remove any color from progress bar
