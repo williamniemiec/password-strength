@@ -1,60 +1,59 @@
-<?php require 'config.php' ?>
 <!doctype html>
 <html>
     <head>
-        <title>Classificados</title>
+        <title>Register</title>
         <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
         <link rel='stylesheet' href='assets/css/bootstrap.min.css' />
         <link rel='stylesheet' href='assets/css/ps_style.css' />
         <script src='assets/js/jquery-3.4.1.min.js'></script>
-        <script src='assets/js/bootstrap.min.js'></script>
+        <script src='assets/js/bootstrap.bundle.min.js'></script>
         <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css" />
     </head>
     <body>
         <div class='container'>
-            <h1>Cadastro</h1>
+            <h1>Register</h1>
             <form method='POST'>
                 <div class='form-group'>
-                    <label for='nome'>Nome: </label>
-                    <input id='nome' type='text' name='nome' class='form-control'/>
+                    <label for='name'>Name: </label>
+                    <input id='name' type='text' name='name' class='form-control'/>
                 </div>
                 <div class='form-group'>
                     <label for='email'>Email: </label>
                     <input id='email' type='text' name='email' class='form-control' />
                 </div>
                 <div class='form-group'>
-                    <label for='senha'>Senha: </label>
-                    <input  type='password' name='senha' class='form-control pass_input' />
+                    <label for='pass'>Password: </label>
+                    <input  type='password' name='pass' class='form-control pass_input' />
                     
                     <!-- Plugin -->
                     <div id='pass_strength_box' class='bg-dark text-light'>
-                        <h5 class='pass_strength_header'>Força da senha</h5>
+                        <h5 class='pass_strength_header'>Password strength</h5>
                         <div class='progress'>
                             <div class='pass_strength_bar'></div>
                         </div>
                         <ul class='pass_strength'>
                             <li id='pass_length' data-length='8'>
-                                Tamanho da senha (no mínimo 8 caracteres)
+                                Password length (at least 8 characters)
                                 <span class='pass_strength_icon'></span>
                             </li>
                             <li id='pass_numCharact'>
-                                Numeros e caracteres
+                                Numbers and characters
                                 <span class='pass_strength_icon'></span>
                             </li>
                             <li id='pass_specCharact'>
-                                Caracteres especiais
+                                Special characters
                                 <span class='pass_strength_icon'></span>
                             </li>
                             <li id='pass_ulCharact'>
-                                Letras maiúsculas e minúsculas
+                                Uppercase and lowercase letters
                                 <span class='pass_strength_icon'></span>
                             </li>
                         </ul>
                     </div>
-                    <!-- Fim plugin -->
+                    <!-- end plugin -->
                 </div>
                 <div class='form-group'>
-                    <input type='submit' value='Cadastrar' class='btn btn-outline-primary submit' />
+                    <input type='submit' value='Register' class='btn btn-outline-primary submit' />
                 </div>
 
             </form>
