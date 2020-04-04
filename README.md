@@ -17,7 +17,7 @@ This project is an HTML widget that detects the password strength, preventing to
 #### Password = 'test1234@A'
 ![Senha = 'test1234@A'](https://github.com/williamniemiec/pass_strength/blob/master/media/plugin/pass_test1234@A.png?raw=true)
 
-## Password standards (Padrões exigidos na senha)
+## Password standards
 To a password to be accepted, it must meet the following standards:
 -   Must have a minimum specified length
 -   Must have numbers and letters
